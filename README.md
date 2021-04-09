@@ -7,9 +7,9 @@ Tested using latest Raspbian Buster (2019-09-26) on 3B (but now supports other e
 # Installation Instructions
 * Install git, if it's not already installed: `sudo apt install git`
 * CD to user directory: `cd ~`
-* Clone this repo: `git clone https://github.com/humeman/openauto-patched-installer`
-* Mark as executable: `sudo chmod +x openauto-patched-installer/installer.sh`
-* Run the installer: `openauto-patched-installer/installer.sh`
+* Clone this repo: `git clone https://github.com/humeman/openauto-patched-installer-bmw`
+* Mark as executable: `sudo chmod +x openauto-patched-installer-bmw/installer.sh`
+* Run the installer: `openauto-patched-installer-bmw/installer.sh`
 * Open OpenAuto (add to crontab or other autorun to start at boot): `sudo ~/openauto/bin/autoapp`
 * Configure as necessary, plug in your phone, and you're good to go!
 
